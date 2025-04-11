@@ -21,7 +21,7 @@ export const loopTypingWhile = async <T>(
     }
   };
 
-  const loop = typingLoop(); // roda em paralelo
+  const loop = typingLoop(); 
 
   try {
     const resultado = await promise;
